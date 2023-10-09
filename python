@@ -1,0 +1,17 @@
+def LinearSearch(NToS):
+    isfound = False
+    Arraydata = [11, 12, 44, 56, 72, 85, 93, 13, 4, 23]
+    for x in range(10):
+        if Arraydata[x] == NToS:
+            return True
+        return False
+
+
+
+
+
+NToS = int(input("Enter Value to search : "))
+if LinearSearch(NToS) == True:
+    print("found")
+else:
+    print("not found")
